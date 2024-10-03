@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		229582AD2CAC8EB6009F60DC /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229582AC2CAC8EB6009F60DC /* WebView.swift */; };
+		229582AF2CAC9009009F60DC /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229582AE2CAC9009009F60DC /* LottieView.swift */; };
+		229582B12CACADB8009F60DC /* SplashSwift.json in Resources */ = {isa = PBXBuildFile; fileRef = 229582B02CACADB7009F60DC /* SplashSwift.json */; };
+		22ADAE332CA74A9D003872EB /* Legend_Gang_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADAE322CA74A9D003872EB /* Legend_Gang_AppApp.swift */; };
+		22ADAE352CA74A9D003872EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADAE342CA74A9D003872EB /* ContentView.swift */; };
+		22ADAE372CA74A9F003872EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22ADAE362CA74A9F003872EB /* Assets.xcassets */; };
+		22ADAE3A2CA74A9F003872EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22ADAE392CA74A9F003872EB /* Preview Assets.xcassets */; };
+		22ADAE442CA74AA0003872EB /* Legend_Gang_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADAE432CA74AA0003872EB /* Legend_Gang_AppTests.swift */; };
+		22ADAE4E2CA74AA0003872EB /* Legend_Gang_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADAE4D2CA74AA0003872EB /* Legend_Gang_AppUITests.swift */; };
+		22ADAE502CA74AA0003872EB /* Legend_Gang_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADAE4F2CA74AA0003872EB /* Legend_Gang_AppUITestsLaunchTests.swift */; };
+		22ADAE632CAB6501003872EB /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 22ADAE622CAB6501003872EB /* Lottie */; };
+		2AB0A0AF327025B333DA228A /* Pods_Legend_Gang_App_Legend_Gang_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E8EA7628EAAD87D61841E5 /* Pods_Legend_Gang_App_Legend_Gang_AppUITests.framework */; };
+		5D8EE12D76C5B3C915C7210A /* Pods_Legend_Gang_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85307367F61DCFC6524BD53C /* Pods_Legend_Gang_AppTests.framework */; };
+		80663D79841CFB912E3F7637 /* Pods_Legend_Gang_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24BBB777C4DECD427CD002B5 /* Pods_Legend_Gang_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22ADAE402CA74AA0003872EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22ADAE272CA74A9D003872EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22ADAE2E2CA74A9D003872EB;
+			remoteInfo = "Legend Gang App";
+		};
+		22ADAE4A2CA74AA0003872EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22ADAE272CA74A9D003872EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22ADAE2E2CA74A9D003872EB;
+			remoteInfo = "Legend Gang App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E458468B38BFF959B04E5DD /* Pods-Legend Gang App-Legend Gang AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Legend Gang App-Legend Gang AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Legend Gang App-Legend Gang AppUITests/Pods-Legend Gang App-Legend Gang AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		21E8EA7628EAAD87D61841E5 /* Pods_Legend_Gang_App_Legend_Gang_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Legend_Gang_App_Legend_Gang_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		229582AC2CAC8EB6009F60DC /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		229582AE2CAC9009009F60DC /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		229582B02CACADB7009F60DC /* SplashSwift.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SplashSwift.json; sourceTree = "<group>"; };
+		22ADAE2F2CA74A9D003872EB /* Legend Gang App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Legend Gang App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22ADAE322CA74A9D003872EB /* Legend_Gang_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Legend_Gang_AppApp.swift; sourceTree = "<group>"; };
+		22ADAE342CA74A9D003872EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		22ADAE362CA74A9F003872EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22ADAE392CA74A9F003872EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22ADAE3F2CA74AA0003872EB /* Legend Gang AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Legend Gang AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22ADAE432CA74AA0003872EB /* Legend_Gang_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Legend_Gang_AppTests.swift; sourceTree = "<group>"; };
+		22ADAE492CA74AA0003872EB /* Legend Gang AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Legend Gang AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22ADAE4D2CA74AA0003872EB /* Legend_Gang_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Legend_Gang_AppUITests.swift; sourceTree = "<group>"; };
+		22ADAE4F2CA74AA0003872EB /* Legend_Gang_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Legend_Gang_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24BBB777C4DECD427CD002B5 /* Pods_Legend_Gang_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Legend_Gang_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E8829F11FE14573B7E7C02 /* Pods-Legend Gang App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Legend Gang App.debug.xcconfig"; path = "Target Support Files/Pods-Legend Gang App/Pods-Legend Gang App.debug.xcconfig"; sourceTree = "<group>"; };
+		43428C01E9B07F7BA21C4462 /* Pods-Legend Gang App-Legend Gang AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Legend Gang App-Legend Gang AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Legend Gang App-Legend Gang AppUITests/Pods-Legend Gang App-Legend Gang AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		684566C0749835A4CA57D3DA /* Pods-Legend Gang App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Legend Gang App.release.xcconfig"; path = "Target Support Files/Pods-Legend Gang App/Pods-Legend Gang App.release.xcconfig"; sourceTree = "<group>"; };
+		8283F7B9D5696108AF9AB3FD /* Pods-Legend Gang AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Legend Gang AppTests.release.xcconfig"; path = "Target Support Files/Pods-Legend Gang AppTests/Pods-Legend Gang AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		85307367F61DCFC6524BD53C /* Pods_Legend_Gang_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Legend_Gang_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE73FB61C7C78628BCAA45C0 /* Pods-Legend Gang AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Legend Gang AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Legend Gang AppTests/Pods-Legend Gang AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22ADAE2C2CA74A9D003872EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22ADAE632CAB6501003872EB /* Lottie in Frameworks */,
+				80663D79841CFB912E3F7637 /* Pods_Legend_Gang_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22ADAE3C2CA74AA0003872EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8EE12D76C5B3C915C7210A /* Pods_Legend_Gang_AppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22ADAE462CA74AA0003872EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB0A0AF327025B333DA228A /* Pods_Legend_Gang_App_Legend_Gang_AppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ED70EB5F41699BB3C544CFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24BBB777C4DECD427CD002B5 /* Pods_Legend_Gang_App.framework */,
+				21E8EA7628EAAD87D61841E5 /* Pods_Legend_Gang_App_Legend_Gang_AppUITests.framework */,
+				85307367F61DCFC6524BD53C /* Pods_Legend_Gang_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22ADAE262CA74A9D003872EB = {
+			isa = PBXGroup;
+			children = (
+				22ADAE312CA74A9D003872EB /* Legend Gang App */,
+				22ADAE422CA74AA0003872EB /* Legend Gang AppTests */,
+				22ADAE4C2CA74AA0003872EB /* Legend Gang AppUITests */,
+				22ADAE302CA74A9D003872EB /* Products */,
+				CD3FD558630FD573F1C56C81 /* Pods */,
+				1ED70EB5F41699BB3C544CFC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22ADAE302CA74A9D003872EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22ADAE2F2CA74A9D003872EB /* Legend Gang App.app */,
+				22ADAE3F2CA74AA0003872EB /* Legend Gang AppTests.xctest */,
+				22ADAE492CA74AA0003872EB /* Legend Gang AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22ADAE312CA74A9D003872EB /* Legend Gang App */ = {
+			isa = PBXGroup;
+			children = (
+				22ADAE322CA74A9D003872EB /* Legend_Gang_AppApp.swift */,
+				229582AC2CAC8EB6009F60DC /* WebView.swift */,
+				229582AE2CAC9009009F60DC /* LottieView.swift */,
+				229582B02CACADB7009F60DC /* SplashSwift.json */,
+				22ADAE342CA74A9D003872EB /* ContentView.swift */,
+				22ADAE362CA74A9F003872EB /* Assets.xcassets */,
+				22ADAE382CA74A9F003872EB /* Preview Content */,
+			);
+			path = "Legend Gang App";
+			sourceTree = "<group>";
+		};
+		22ADAE382CA74A9F003872EB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				22ADAE392CA74A9F003872EB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22ADAE422CA74AA0003872EB /* Legend Gang AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				22ADAE432CA74AA0003872EB /* Legend_Gang_AppTests.swift */,
+			);
+			path = "Legend Gang AppTests";
+			sourceTree = "<group>";
+		};
+		22ADAE4C2CA74AA0003872EB /* Legend Gang AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22ADAE4D2CA74AA0003872EB /* Legend_Gang_AppUITests.swift */,
+				22ADAE4F2CA74AA0003872EB /* Legend_Gang_AppUITestsLaunchTests.swift */,
+			);
+			path = "Legend Gang AppUITests";
+			sourceTree = "<group>";
+		};
+		CD3FD558630FD573F1C56C81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25E8829F11FE14573B7E7C02 /* Pods-Legend Gang App.debug.xcconfig */,
+				684566C0749835A4CA57D3DA /* Pods-Legend Gang App.release.xcconfig */,
+				43428C01E9B07F7BA21C4462 /* Pods-Legend Gang App-Legend Gang AppUITests.debug.xcconfig */,
+				0E458468B38BFF959B04E5DD /* Pods-Legend Gang App-Legend Gang AppUITests.release.xcconfig */,
+				AE73FB61C7C78628BCAA45C0 /* Pods-Legend Gang AppTests.debug.xcconfig */,
+				8283F7B9D5696108AF9AB3FD /* Pods-Legend Gang AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22ADAE2E2CA74A9D003872EB /* Legend Gang App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22ADAE532CA74AA0003872EB /* Build configuration list for PBXNativeTarget "Legend Gang App" */;
+			buildPhases = (
+				E6E9C14C7D09D42F55F2A1DF /* [CP] Check Pods Manifest.lock */,
+				22ADAE2B2CA74A9D003872EB /* Sources */,
+				22ADAE2C2CA74A9D003872EB /* Frameworks */,
+				22ADAE2D2CA74A9D003872EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Legend Gang App";
+			packageProductDependencies = (
+				22ADAE622CAB6501003872EB /* Lottie */,
+			);
+			productName = "Legend Gang App";
+			productReference = 22ADAE2F2CA74A9D003872EB /* Legend Gang App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22ADAE3E2CA74AA0003872EB /* Legend Gang AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22ADAE562CA74AA0003872EB /* Build configuration list for PBXNativeTarget "Legend Gang AppTests" */;
+			buildPhases = (
+				104A77D46E18955BB03FBABE /* [CP] Check Pods Manifest.lock */,
+				22ADAE3B2CA74AA0003872EB /* Sources */,
+				22ADAE3C2CA74AA0003872EB /* Frameworks */,
+				22ADAE3D2CA74AA0003872EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22ADAE412CA74AA0003872EB /* PBXTargetDependency */,
+			);
+			name = "Legend Gang AppTests";
+			productName = "Legend Gang AppTests";
+			productReference = 22ADAE3F2CA74AA0003872EB /* Legend Gang AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22ADAE482CA74AA0003872EB /* Legend Gang AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22ADAE592CA74AA0003872EB /* Build configuration list for PBXNativeTarget "Legend Gang AppUITests" */;
+			buildPhases = (
+				01F5DF1E1A3D257877DED708 /* [CP] Check Pods Manifest.lock */,
+				22ADAE452CA74AA0003872EB /* Sources */,
+				22ADAE462CA74AA0003872EB /* Frameworks */,
+				22ADAE472CA74AA0003872EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22ADAE4B2CA74AA0003872EB /* PBXTargetDependency */,
+			);
+			name = "Legend Gang AppUITests";
+			productName = "Legend Gang AppUITests";
+			productReference = 22ADAE492CA74AA0003872EB /* Legend Gang AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22ADAE272CA74A9D003872EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					22ADAE2E2CA74A9D003872EB = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					22ADAE3E2CA74AA0003872EB = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 22ADAE2E2CA74A9D003872EB;
+					};
+					22ADAE482CA74AA0003872EB = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 22ADAE2E2CA74A9D003872EB;
+					};
+				};
+			};
+			buildConfigurationList = 22ADAE2A2CA74A9D003872EB /* Build configuration list for PBXProject "Legend Gang App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22ADAE262CA74A9D003872EB;
+			packageReferences = (
+				22ADAE612CAB63EF003872EB /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 22ADAE302CA74A9D003872EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22ADAE2E2CA74A9D003872EB /* Legend Gang App */,
+				22ADAE3E2CA74AA0003872EB /* Legend Gang AppTests */,
+				22ADAE482CA74AA0003872EB /* Legend Gang AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22ADAE2D2CA74A9D003872EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229582B12CACADB8009F60DC /* SplashSwift.json in Resources */,
+				22ADAE3A2CA74A9F003872EB /* Preview Assets.xcassets in Resources */,
+				22ADAE372CA74A9F003872EB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22ADAE3D2CA74AA0003872EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22ADAE472CA74AA0003872EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01F5DF1E1A3D257877DED708 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Legend Gang App-Legend Gang AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		104A77D46E18955BB03FBABE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Legend Gang AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6E9C14C7D09D42F55F2A1DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Legend Gang App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22ADAE2B2CA74A9D003872EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229582AD2CAC8EB6009F60DC /* WebView.swift in Sources */,
+				229582AF2CAC9009009F60DC /* LottieView.swift in Sources */,
+				22ADAE352CA74A9D003872EB /* ContentView.swift in Sources */,
+				22ADAE332CA74A9D003872EB /* Legend_Gang_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22ADAE3B2CA74AA0003872EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22ADAE442CA74AA0003872EB /* Legend_Gang_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22ADAE452CA74AA0003872EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22ADAE502CA74AA0003872EB /* Legend_Gang_AppUITestsLaunchTests.swift in Sources */,
+				22ADAE4E2CA74AA0003872EB /* Legend_Gang_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22ADAE412CA74AA0003872EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22ADAE2E2CA74A9D003872EB /* Legend Gang App */;
+			targetProxy = 22ADAE402CA74AA0003872EB /* PBXContainerItemProxy */;
+		};
+		22ADAE4B2CA74AA0003872EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22ADAE2E2CA74A9D003872EB /* Legend Gang App */;
+			targetProxy = 22ADAE4A2CA74AA0003872EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22ADAE512CA74AA0003872EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22ADAE522CA74AA0003872EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22ADAE542CA74AA0003872EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25E8829F11FE14573B7E7C02 /* Pods-Legend Gang App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Legend Gang App/Preview Content\"";
+				DEVELOPMENT_TEAM = 997X5CYT6A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gets.Legend-GangApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22ADAE552CA74AA0003872EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 684566C0749835A4CA57D3DA /* Pods-Legend Gang App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Legend Gang App/Preview Content\"";
+				DEVELOPMENT_TEAM = VFZ3854Q9Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gets.LegendGangApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22ADAE572CA74AA0003872EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE73FB61C7C78628BCAA45C0 /* Pods-Legend Gang AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 997X5CYT6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gets.Legend-Gang-AppTests";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.gets.legendgang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Legend Gang App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Legend Gang App";
+			};
+			name = Debug;
+		};
+		22ADAE582CA74AA0003872EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8283F7B9D5696108AF9AB3FD /* Pods-Legend Gang AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 997X5CYT6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gets.Legend-Gang-AppTests";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.gets.legendgang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Legend Gang App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Legend Gang App";
+			};
+			name = Release;
+		};
+		22ADAE5A2CA74AA0003872EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43428C01E9B07F7BA21C4462 /* Pods-Legend Gang App-Legend Gang AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 997X5CYT6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gets.Legend-Gang-AppUITests";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.gets.legendgang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Legend Gang App";
+			};
+			name = Debug;
+		};
+		22ADAE5B2CA74AA0003872EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E458468B38BFF959B04E5DD /* Pods-Legend Gang App-Legend Gang AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 997X5CYT6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gets.Legend-Gang-AppUITests";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.gets.legendgang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Legend Gang App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22ADAE2A2CA74A9D003872EB /* Build configuration list for PBXProject "Legend Gang App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22ADAE512CA74AA0003872EB /* Debug */,
+				22ADAE522CA74AA0003872EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22ADAE532CA74AA0003872EB /* Build configuration list for PBXNativeTarget "Legend Gang App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22ADAE542CA74AA0003872EB /* Debug */,
+				22ADAE552CA74AA0003872EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22ADAE562CA74AA0003872EB /* Build configuration list for PBXNativeTarget "Legend Gang AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22ADAE572CA74AA0003872EB /* Debug */,
+				22ADAE582CA74AA0003872EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22ADAE592CA74AA0003872EB /* Build configuration list for PBXNativeTarget "Legend Gang AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22ADAE5A2CA74AA0003872EB /* Debug */,
+				22ADAE5B2CA74AA0003872EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		22ADAE612CAB63EF003872EB /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		22ADAE622CAB6501003872EB /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22ADAE612CAB63EF003872EB /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 22ADAE272CA74A9D003872EB /* Project object */;
+}

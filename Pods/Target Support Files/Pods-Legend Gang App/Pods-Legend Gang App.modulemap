@@ -1,0 +1,6 @@
+framework module Pods_Legend_Gang_App {
+  umbrella header "Pods-Legend Gang App-umbrella.h"
+
+  export *
+  module * { export * }
+}
